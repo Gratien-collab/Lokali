@@ -6,8 +6,13 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
+    "icon": "./icon.png",
     "android": {
-      "package": "com.lokali.app"
+      "package": "com.lokali.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./adaptive-icon.png",
+        "backgroundColor": "#0B2A55"
+      }
     },
     "extra": {
       "eas": {
